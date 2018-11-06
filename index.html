@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Luhansk Map</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div class="header__main-title">
+                <h2 >Luhansk Oblast</h2>
+            </div>
+            <div class="header__info">
+                    Integer fringilla nec est ac bibendum. Nulla vitae orci ut neque convallis ultrices. Suspendisse congue tristique tortor sit amet ultrices. Etiam dapibus pulvinar velit, eget egestas neque imperdiet sed. Aliquam erat volutpat. Phasellus et orci at lorem fringilla scelerisque sit amet nec tortor. Nullam imperdiet ligula non aliquet eleifend. Pellentesque luctus sem metus, quis semper arcu consectetur a. Vivamus ex elit, lacinia eu rutrum vitae, mollis nec quam. Etiam id consequat ex, sed mattis nisi. Nunc varius molestie nisl vel euismod. Duis egestas magna vitae nunc luctus mattis. Sed consequat nibh arcu, ac egestas mi interdum a. Donec felis turpis, pharetra eget lobortis quis, lacinia vel nisl. Pellentesque pellentesque tempor sapien sit amet vulputate.
+            </div>
+            <div class="header__img">
+                <img src="./img/Coat_of_Arms_Luhansk_Oblast.svg.png" alt="">
+            </div>
+          
+        </div>
+        <div id="main-content">
+            <svg id="map"></svg>
+            <svg id="chart"></svg>
+            <div id="interaction"></div>
+        </div>
+    </div>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!-- Oblast data -->
+    <script src="./js/data/oblast.js"></script>
+
+    <!-- Raions data -->
+    <script src="./js/data/raions/info.js"></script>
+    <!-- bugs -->
+    <script src="./js/data/raions/svatove.js"></script>
+
+    <script src="./js/data/raions/dataAll.js"></script>
+    <script src="./js/data/raions/novoaidar.js"></script>
+
+
+    <script src="./js/pieChart.js"></script>
+
+    <script src="./js/map.js"></script>
+
+    <script>
+        drawOblast(oblast);
+        drawAllRegions();
+    </script>
+</body>
+
+</html>
