@@ -75,5 +75,7 @@ function clickRegion(obj) {
   d3.select(this)
     .attr("fill", mapColors.selected)
     .attr("data-fill-flag", true);
-  drawPie(obj);
+    changeRaionInfo(this.__data__.features)
+  
+    drawPie(obj);
 }

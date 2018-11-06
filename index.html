@@ -26,7 +26,14 @@
         <div id="main-content">
             <svg id="map"></svg>
             <svg id="chart"></svg>
-            <div id="interaction"></div>
+            <div id="interaction">
+                <div class="raion-info">
+                    <div class="raion-info__header"></div>      
+                    <div class="raion-info__population"></div>
+                    <div class="raion-info__area"></div>
+                    <div class="raion-info__oc"></div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -36,19 +43,45 @@
 
     <!-- Raions data -->
     <script src="./js/data/raions/info.js"></script>
-    <!-- bugs -->
-    <script src="./js/data/raions/svatove.js"></script>
+    <script src="./js/data/raions/bilokurakyne.js"></script>
+    <script src="./js/data/raions/bilovodsk.js"></script>
+    <script src="./js/data/raions/kreminna.js"></script>
+    <script src="./js/data/raions/markivka.js"></script>
+    <script src="./js/data/raions/milove.js"></script>
+    <script src="./js/data/raions/novopskov.js"></script>
+    <script src="./js/data/raions/stanytsiaLuhanska.js"></script>
+    <!-- bugs with polygons -->
+    <!-- <script src="./js/data/raions/svatove.js"></script> -->
+    <!-- <script src="./js/data/raions/novoaidar.js"></script> -->
+    <!-- <script src="./js/data/raions/popasna.js"></script> -->
+    <!-- <script src="./js/data/raions/starobilsk.js"></script> -->
 
     <script src="./js/data/raions/dataAll.js"></script>
-    <script src="./js/data/raions/novoaidar.js"></script>
+
+
+    <!-- RaionsOC data -->
+    <script src="./js/data/raionsOC/antratsyt.js"></script>
+    <script src="./js/data/raionsOC/krasnodon.js"></script>
+    <script src="./js/data/raionsOC/lutuhyne.js"></script>
+    <script src="./js/data/raionsOC/perevalsk.js"></script>
+    <script src="./js/data/raionsOC/slovianoserbsk.js"></script>
+    <script src="./js/data/raionsOC/sverdlovsk.js"></script>
+    
+    <!-- LIST -->
+    <script src="./js/data/raionsOC/infoOC.js"></script>
+    <!-- ALL DATAOC -->
+    <script src="./js/data/raionsOC/dataAllOC.js"></script>
+
 
 
     <script src="./js/pieChart.js"></script>
+    <script src="./js/interaction.js"></script>
 
     <script src="./js/map.js"></script>
 
     <script>
         drawOblast(oblast);
+        drawAllRegionsOC();
         drawAllRegions();
     </script>
 </body>
