@@ -8,17 +8,17 @@ var kreminna = {
         area: 1436,
         population: 19135,
         ethnicity: [
-          { 
-            name :"ukrainians",
-            value : 85.1,
+          {
+            name: "ukrainians",
+            value: 85.1
           },
           {
-            name : "russians", 
-            value :  13.5,
+            name: "russians",
+            value: 13.5
           },
           {
-            name : "others",
-            value : 1.4
+            name: "others",
+            value: 1.4
           }
         ]
       },

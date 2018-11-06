@@ -436,4 +436,4 @@ var bilovodsk = {
       ]
     }
   ]
-};
+}

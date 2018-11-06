@@ -1,7 +1,7 @@
 var data = [15, 40,100];
-var chartSS = d3.select('svg#chart');
-var width = 960,
-    height = 500;
+var chartSVG = d3.select('svg#chart');
+var width = chartSVG.style('width').split('px')[0],
+    height = chartSVG.style('height').split('px')[0];
 var  radius =  Math.min(width, height)/2;
 
 var color = d3.scaleOrdinal()
@@ -19,7 +19,7 @@ var pie = d3.pie()
             .sort(null)
             .value( tt => tt.value);
 
-var chartSS = d3.select('svg#chart')
+var chartSS = chartSVG
             // .append('svg')
             // .attr('width', width)
             // .attr('height', height)

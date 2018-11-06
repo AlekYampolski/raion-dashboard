@@ -4,10 +4,10 @@ var raionsList = [
     'kreminna',
     'markivka',
     "milove",
-    // "novoaidar",  ???
+    // "novoaidar",  ??? Polygon's problems
     "novopskov",
-    // "popasna",   ???
-    // "svatove",   ???
+    // "popasna",   ??? Polygon's problems
+    // "svatove",   ??? Polygon's problems
     "stanytsiaLuhanska",
-    // "starobilsk" ???
+    // "starobilsk" ??? Polygon's problems
 ]

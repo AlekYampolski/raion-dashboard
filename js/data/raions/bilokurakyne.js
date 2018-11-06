@@ -9,15 +9,15 @@ var bilokurakyne = {
         population: 19135,
         ethnicity: [
           { 
-            type : "ukrainians", 
+            name : "ukrainians", 
             value : 90.7
           },
           {
-            type : "russians", 
+            name : "russians", 
             value : 8.5
           },
           {
-            type : "belarusians", 
+            name : "belarusians", 
             value : 0.2
           }
         ],
@@ -741,4 +741,4 @@ var bilokurakyne = {
       ]
     }
   ]
-},
+}

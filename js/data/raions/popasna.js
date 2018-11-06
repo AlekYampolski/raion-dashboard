@@ -1,9 +1,9 @@
 var popasna = {
-  id : "popasna",
-  name : "Popasna Raion",
-  area : 1.325,
-  population : 40.696,
-  ethnicity : {
+  id: "popasna",
+  name: "Popasna Raion",
+  area: 1.325,
+  population: 40.696,
+  ethnicity: {
     ukrainians: 81.1,
     russians: 17.5,
     belarusians: 0.5
