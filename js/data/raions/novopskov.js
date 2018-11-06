@@ -1,16 +1,27 @@
 var novopskov = {
   id : "novopskov",
-  name : "Novopskov Raion",
-  area : 1.623,
-  population : 35.091,
-  ethnicity : {
-    ukrainians: 92.2,
-    russians: 6.9,
-    belarusians: 0.3
-  },
   type: "GeometryCollection",
   geometries: [
     {
+      features: {
+        name : "Novopskov Raion",
+        area : 1.623,
+        population : 35.091,
+        ethnicity: [
+          {
+            name: "ukrainians",
+            value: 92.2
+          },
+          {
+            name: "russians",
+            value: 6.9
+          },
+          {
+            name: "others",
+            value: 0.9
+          }
+        ]
+      },
       type: "MultiPolygon",
       coordinates: [
         [

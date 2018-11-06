@@ -1,16 +1,27 @@
 var markivka = {
   id: "markivka",
-  name: "Markivka Raion",
-  area: 1166,
-  population: 14980,
-  ethnicity: {
-    ukrainians: 93,
-    russians: 5.7,
-    belarusians: 0.4
-  },
   type: "GeometryCollection",
   geometries: [
     {
+      features: {
+        name: "Markivka Raion",
+        area: 1166,
+        population: 14980,
+        ethnicity: [
+          { 
+            name :"ukrainians",
+            value : 93,
+          },
+          {
+            name : "russians", 
+            value :  5.7,
+          },
+          {
+            name : "others",
+            value : 1.3
+          }
+        ]
+      },
       type: "MultiPolygon",
       coordinates: [
         [

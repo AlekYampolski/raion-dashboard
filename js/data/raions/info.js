@@ -2,12 +2,12 @@ var raionsList = [
     'bilokurakyne',
     'bilovodsk',
     'kreminna',
-    // 'markivka',
-    // "milove",
+    'markivka',
+    "milove",
     // "novoaidar",  ???
-    // "novopskov",
+    "novopskov",
     // "popasna",   ???
     // "svatove",   ???
-    // "stanytsiaLuhanska",
+    "stanytsiaLuhanska",
     // "starobilsk" ???
 ]

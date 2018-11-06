@@ -1,16 +1,27 @@
 var stanytsiaLuhanska = {
   id: "stanytsiaLuhanska",
-  name: "Stanytsia-Luhanska Raion",
-  area: 1.900,
-  population: 49.797,
-  ethnicity: {
-    ukrainians: 56.1,
-    russians: 42.7,
-    belarusians: 0.4
-  },
   type: "GeometryCollection",
   geometries: [
     {
+      features: {
+        name: "Stanytsia-Luhanska Raion",
+        area: 1.900,
+        population: 49.797,
+        ethnicity: [
+          {
+            name: "ukrainians",
+            value: 56.1
+          },
+          {
+            name: "russians",
+            value: 42.7
+          },
+          {
+            name: "others",
+            value: 1.2
+          }
+        ]
+      },
       type: "MultiPolygon",
       coordinates: [
         [

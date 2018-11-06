@@ -1,16 +1,27 @@
 var milove = {
-  id : "milove",
-  name : "Milove Raion",
-  area : 971,
-  population : 15.570,
-  ethnicity : {
-    ukrainians: 77.7,
-    russians: 19.6,
-    belarusians: 0.3
-  },
+  id: "milove",
   type: "GeometryCollection",
   geometries: [
     {
+      features: {
+        name: "Milove Raion",
+        area: 971,
+        population: 15.57,
+        ethnicity: [
+          {
+            name: "ukrainians",
+            value: 77.7
+          },
+          {
+            name: "russians",
+            value: 19.6
+          },
+          {
+            name: "others",
+            value: 2.7
+          }
+        ]
+      },
       type: "MultiPolygon",
       coordinates: [
         [
