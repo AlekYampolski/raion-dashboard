@@ -33,13 +33,23 @@ function drawAllRegionsOC(){
   raionsListOC.forEach( name => {
     var obj = dataAllOC.find(el => el.id === name);
     drawRegion(obj);
+    drawInList(obj);
   })
 }
+
+function drawInList(obj){
+  var raionName = obj.geometries[0].features.name;
+  d3.select('.header__raions-drawn')
+      .append('li')
+      .text(raionName);
+}
+
 
 function drawAllRegions() {
   raionsList.forEach(name => {
     var obj = dataAll.find(el => el.id === name);
     drawRegion(obj);
+    drawInList(obj);
   });
 }
 
