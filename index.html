@@ -27,11 +27,20 @@
             <svg id="map"></svg>
             <svg id="chart"></svg>
             <div id="interaction">
-                <div class="raion-info">
-                    <div class="raion-info__header"></div>      
-                    <div class="raion-info__population"></div>
-                    <div class="raion-info__area"></div>
-                    <div class="raion-info__oc"></div>
+                <div class="info">
+                    <div class="info__container">
+                        <label>Name:</label>
+                        <div class="info__header"></div>
+                    </div>      
+                    <div class="info__container">
+                        <label>Population:</label>
+                        <div class="info__population"></div>
+                    </div>
+                    <div class="info__container">
+                        <label>Area:</label>
+                        <div class="info__area"></div>
+                    </div>
+                    <!-- <div class="info__oc"></div> -->
                 </div>
             </div>
         </div>
@@ -79,10 +88,10 @@
 
     <script src="./js/map.js"></script>
 
+    <script src="./js/init.js"></script>
+
     <script>
-        drawOblast(oblast);
-        drawAllRegionsOC();
-        drawAllRegions();
+       
     </script>
 </body>
 

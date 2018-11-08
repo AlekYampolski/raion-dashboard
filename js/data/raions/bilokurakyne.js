@@ -17,8 +17,8 @@ var bilokurakyne = {
             value : 8.5
           },
           {
-            name : "belarusians", 
-            value : 0.2
+            name : "others", 
+            value : 0.8
           }
         ],
       },

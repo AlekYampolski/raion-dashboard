@@ -1,7 +1,27 @@
 var oblast = {
+  id : 'luhanskOblast',
   type: "GeometryCollection",
   geometries: [
-    {
+    { 
+      features: {
+        name: "Luhansk Oblast",
+        area: 26684,
+        population: 2239500,
+        ethnicity: [
+          {
+            name: "ukrainians",
+            value:  54.0
+          },
+          {
+            name: "russians",
+            value: 42.0
+          },
+          {
+            name: "others",
+            value: 4.0
+          }
+        ]
+      },
       type: "MultiPolygon",
       coordinates: [
         [
