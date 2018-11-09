@@ -5,8 +5,8 @@ var stanytsiaLuhanska = {
     {
       features: {
         name: "Stanytsia-Luhanska Raion",
-        area: 1.900,
-        population: 49.797,
+        area: 1900,
+        population: 49797,
         ethnicity: [
           {
             name: "ukrainians",

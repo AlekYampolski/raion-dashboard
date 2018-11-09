@@ -6,7 +6,7 @@ var krasnodon = {
       features: {
         oc: true,
         name: "Krasnodon Raion",
-        area: 100,
+        area: 1400,
         population:  29691,
         ethnicity: [
           {

@@ -6,7 +6,7 @@ var milove = {
       features: {
         name: "Milove Raion",
         area: 971,
-        population: 15.57,
+        population: 15570,
         ethnicity: [
           {
             name: "ukrainians",

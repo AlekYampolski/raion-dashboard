@@ -16,7 +16,7 @@ d3.select('.header__raions-undrawn')
     .text(d => d)
 
     
-
+changeRaionInfo(oblast.geometries[0].features)
 drawOblast(oblast);
 drawAllRegions();
 drawAllRegionsOC();

@@ -38,6 +38,19 @@
     flex-direction: row;
 }
 
+.header__main-title p, .header__main-title h4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.header__main-title > div {
+    font-size: 18px;
+}
+
+.header__main-title > h2 {
+    text-align: center;
+}
+
 .header__info__drawn {
     flex : 1;
     order: 1;
@@ -85,6 +98,23 @@
 #interaction {
     /* width: 300px; */
     /* background: rgb(92, 32, 202); */
+    font-size: 33px;
     flex: 2;
     order: 1;
 }
+
+.info__container {
+    display: flex;
+    flex-direction: raw;
+    justify-content: flex-end;
+}
+
+.info__container > label {
+    flex: 1;
+
+}
+
+.info__container > div {
+    flex: 2;
+}
+

@@ -5,8 +5,8 @@ var novopskov = {
     {
       features: {
         name : "Novopskov Raion",
-        area : 1.623,
-        population : 35.091,
+        area : 1623,
+        population : 35091,
         ethnicity: [
           {
             name: "ukrainians",

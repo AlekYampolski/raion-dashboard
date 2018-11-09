@@ -6,6 +6,21 @@ var interPopul = ".info__population";
 var interOC = ".info__oc";
 
 
+/* 
+function changeRaionInfo(obj)
+    return : undefined;
+    obj = {
+        name : string,
+        area : number,
+        population : number,
+        ethnicity : [
+            {
+                name : string, 
+                value : number
+            }
+        ]
+    }
+*/
 function changeRaionInfo(obj){
     var data = obj;
 
@@ -14,12 +29,12 @@ function changeRaionInfo(obj){
         .text(data.name);
     /* Change Area */
     divIn.select(interArea)
-        .text(data.area)
+        .text(`${data.area} km²`)
 
     /* Change Population */
     divIn.select(interPopul)
-        .text(data.population);
+        .text(`${data.population}`);
     /* Change OC */
-    divIn.select(interArea)
-        .text(data.area);
+    // divIn.select(interArea)
+    //     .text(data.area);
 }
